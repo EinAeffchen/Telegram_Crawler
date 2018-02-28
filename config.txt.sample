@@ -1,0 +1,5 @@
+telegram_api=your apiid here
+api_hash=your apihash here
+username=your username here
+#1/Xth ot the average activity(messages per runtime) required to not be marked as inactive. default: 1/3th
+min_activity=50
