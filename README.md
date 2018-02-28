@@ -57,6 +57,9 @@ is done by the Connector.py. This highly increased accuracy and speed and also r
 - Fixed bug with mode 0
 - Fixed bug where group metadata was not written anymore
 
+28.02.2018
+- Groups that could not be joined due to flooderror will now be saved and tried to join later.
+
 ## TODO
 - [x] Be able to join new groups
 - [x] Automatically leave inactive groups (Has to be tested still)
