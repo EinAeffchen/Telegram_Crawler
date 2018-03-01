@@ -237,7 +237,7 @@ class TelegramOperator:
 
 
     def write_leftout_groups(self):
-        with open("leftout_groups", "w") as output:
+        with codecs.open("leftout_groups", "w", encoding="utf-8") as output:
             for group in self.leftout_groups:
                 output.write(group+"\n")
 
